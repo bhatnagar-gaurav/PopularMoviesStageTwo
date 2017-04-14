@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- Default Control Padding -->
+
+    <dimen name="default_layout_padding">16dp</dimen>
+    <dimen name="error_subtitle_padding">10dp</dimen>
+
+
+    <!-- Movie Details -->
+    <dimen name="movie_card_elevation">2dp</dimen>
+    <dimen name="zero_dp">0dp</dimen>
+
+
+    <dimen name="movie_detail_thumbnail_margin_left">22dp</dimen>
+    <dimen name="movie_detail_thumbnail_width">180dp</dimen>
+    <dimen name="movie_detail_thumbnail_height">240dp</dimen>
+
+
+    <dimen name="synopsis_margin_left">22dp</dimen>
+
+
+    <dimen name="movie_detail_features_layout_width">240dp</dimen>
+    <dimen name="movie_detail_features_layout_height">240dp</dimen>
+
+
+
+
+</resources>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="color_white">#FFFFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="material_lighter_red">#ffffebee</color>
+    <color name="material_light_red">#ffe57373</color>
+    <color name="material_dark_red">#ffe53935</color>
+    <color name="material_light_grey">#ffe0e0e0</color>
+    <color name="material_dark_grey">#6c6c6c</color>
+    <color name="material_black">#ff000000</color>
+    <color name="material_white">#ffffffff</color>
+    <color name="orange_swipe_refresh">#f57c00</color>
+    <color name="green_swipe_refresh">#388e3c</color>
+    <color name="cyan_swipe_refresh">#00ffff</color>
+
+
+    <color name="item_movie_base">#333333</color>
+    <color name="movie_details_title_background">#009688</color>
+</resources>

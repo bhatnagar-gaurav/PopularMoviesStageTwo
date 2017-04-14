@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/material_light_grey"
+    android:fitsSystemWindows="true">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        app:theme="@style/AppTheme.AppBarOverlay" />
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:layout_below="@+id/toolbar"
+        android:id="@+id/swipe_refresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.RecyclerView
+            android:scrollbars="vertical"
+            android:id="@+id/recyclerView_movies"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </android.support.v4.widget.SwipeRefreshLayout>
+    <!-- Empty view for the list -->
+    <RelativeLayout
+        android:id="@+id/error_view_no_internet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <ImageView
+            android:contentDescription="@string/no_internet_content_description"
+            android:id="@+id/no_internet_sad_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            app:srcCompat="@drawable/ic_sentiment_dissatisfied_black_24dp"/>
+
+        <TextView
+            android:id="@+id/error_no_internet_title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/no_internet_sad_image"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="serif-monospace"
+            android:paddingTop="@dimen/default_layout_padding"
+            android:text="@string/error_no_internet_title"
+            android:textAppearance="?android:textAppearanceLarge"/>
+
+        <TextView
+            android:id="@+id/error_no_internet_subtitle_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_below="@+id/error_no_internet_title_text"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="serif-monospace"
+            android:paddingTop="@dimen/error_subtitle_padding"
+            android:text="@string/error_no_internet_sub_title"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/material_dark_grey"/>
+    </RelativeLayout>
+</RelativeLayout>

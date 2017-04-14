@@ -1,0 +1,60 @@
+<resources>
+
+    <!-- - - - - - - - - - - - - -->
+    <!-- Used throughout Awesome Movies app-->
+    <!-- - - - - - - - - - - - - -->
+
+    <!--Used in Action Bar, and in AndroidManifest to tell the device the name of this app.-->
+    <string name="app_name">AwesomeMovies</string>
+    <string name="movie_thumbnail_content_description">Movie Avatar</string>
+
+    <!-- - - - - - - - - - - - - -->
+    <!-- General Logging Message-->
+    <!-- - - - - - - - - - - - - -->
+    <string name="binding_logging_message">Binding to the view #</string>
+
+
+    <!-- Error Related Strings -->
+
+    <string name="no_internet_content_description">No Internet Issue</string>
+    <string name="error_no_internet_sub_title">Error! There is no internet .Please try again.</string>
+    <string name="error_no_internet_title">No Internet!</string>
+    <string name="error_movies_not_loaded">Movies have not loaded due to unavoidable error. Please try again after some time</string>
+    <string name="ok">OK</string>
+    <string name="fragment_attachment_exception"> must Implement OnMovieItemClickListener</string>
+
+
+
+    <!--Used in overflow menu to Sort the awesome movies-->
+    <string name="sort_by_popularity">Most Popular Movies</string>
+    <string name="sort_by_rating">Highest Rated Movies</string>
+    <string name="no_movie_selected">No Movies Selected</string>
+    <string name="transition_photo">photoTransition</string>
+
+    <!-- - - - - - - - - - - - - -->
+    <!--Used by Popular Movies Screen-->
+    <!-- - - - - - - - - - - - - -->
+    <string name="menu_options_popular_message">You are already viewing the most popular movies.</string>
+
+
+
+
+    <!-- - - - - - - - - - - - - -->
+    <!--Used by Top Rated Movies Screen-->
+    <!-- - - - - - - - - - - - - -->
+    <string name="menu_options_top_rated_message">You are already viewing the top rated movies.</string>
+
+
+
+    <!-- - - - - - - - - - - - - -->
+    <!--Used by Movie Details Screen-->
+    <!-- - - - - - - - - - - - - -->
+
+    <string name="movie_detail_thumbnail_content_description">Movie Detail Avatar</string>
+    <string name="back">Back</string>
+    <string name="movie_total_vote_count_suffix">votes</string>
+    <string name="movie_average_vote_count_suffix">/10</string>
+    <string name="movie_synopsis_label">Movie Synopsis</string>
+    <string name="movie_detail_title">Movie Details</string>
+    <string name="movie_detail_title_initializer">Please select a movie</string>
+</resources>
