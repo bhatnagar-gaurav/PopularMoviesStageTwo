@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.udacity.assignment.android.popularmoviesstageone.userinterface.AccessActivity">
+
+    <item
+        android:id="@+id/action_by_popular_sort"
+        android:orderInCategory="1"
+        android:title="@string/sort_by_popularity"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_by_top_rating_sort"
+        android:orderInCategory="2"
+        android:title="@string/sort_by_rating"
+        app:showAsAction="never" />
+</menu>

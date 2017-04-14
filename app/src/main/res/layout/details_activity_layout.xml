@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/CoordinatorLayout">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app_bar"
+        style="@style/AppBarLayout"
+        android:layout_height="@dimen/detail_app_bar_height">
+
+        <android.support.design.widget.CollapsingToolbarLayout
+            android:id="@+id/toolbar_layout"
+            style="@style/CollapsingToolbarLayout"
+            app:contentScrim="?attr/colorPrimary"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/backButton"
+                    style="@style/Base.Widget.AppCompat.Button.Borderless"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="start|center_vertical"
+                    android:layout_marginLeft="@dimen/back_button_layout_margin"
+                    android:layout_marginStart="@dimen/back_button_layout_margin"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="@string/back"
+                    android:textColor="@color/material_white" />
+
+                <TextView
+                    android:id="@+id/movie_detail_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="@dimen/back_button_layout_margin"
+                    android:layout_marginStart="@dimen/back_button_layout_margin"
+                    android:gravity="center"
+                    android:text="@string/movie_detail_title"
+                    android:textStyle="bold"
+                    android:textColor="@color/material_white"
+                    android:textSize="@dimen/movie_detail_title_text_size" />
+
+                <android.support.v7.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    app:layout_collapseMode="pin"
+                    app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+            </LinearLayout>
+
+
+        </android.support.design.widget.CollapsingToolbarLayout>
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/details_layout" />
+
+</android.support.design.widget.CoordinatorLayout>
