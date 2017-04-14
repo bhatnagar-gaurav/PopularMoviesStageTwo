@@ -15,6 +15,9 @@
     <dimen name="item_movie_padding">16dp</dimen>
     <dimen name="item_movie_title_text_size">22sp</dimen>
     <dimen name="movie_thumbnail_grid_height">254dp</dimen>
+    <!-- Movie Cell in Grid -->
+    <dimen name="movie_card_elevation">4dp</dimen>
+
 
 
     <!-- Movie Details -->
@@ -35,23 +38,17 @@
     <dimen name="movie_detail_features_layout_height">190dp</dimen>
     <dimen name="movie_detail_features_margin_left">30dp</dimen>
 
-
-
-    <dimen name="detail_app_bar_height">90dp</dimen>
-    <dimen name="back_button_layout_margin">10dp</dimen>
-
-
     <dimen name="separator_marginTop">10dp</dimen>
     <dimen name="separator_height">1dp</dimen>
     <dimen name="synopsis_margin">8dp</dimen>
     <dimen name="synopsis_fontSize">20sp</dimen>
-
-
-    <!-- Movie Title -->
+    <!-- Movie Title In Details-->
     <dimen name="title_size">36sp</dimen>
     <dimen name="top_margin">10dp</dimen>
 
-    <!-- Movie Cell in Grid -->
-    <dimen name="movie_card_elevation">4dp</dimen>
+    <!-- TOOLBAR Details -->
+
+    <dimen name="detail_app_bar_height">90dp</dimen>
+    <dimen name="back_button_layout_margin">10dp</dimen>
 
 </resources>
