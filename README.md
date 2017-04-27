@@ -1,7 +1,7 @@
-# PopularMoviesStageOne
+# PopularMoviesStageTwo
 
 
-This is the Project 1 for the Udacity Assignments.
+This is the Project 2 for the Udacity Assignments.
 In this We display the list of popular movies or top sorted movies based on user's preference.
 
 
