@@ -1,4 +1,4 @@
-package com.udacity.assignment.android.popularmoviesstageone.utilities.adapters;
+package com.udacity.assignment.android.popularmoviesstagetwo.utilities.adapters;
 
 import android.content.Context;
 import android.graphics.Bitmap;
@@ -19,9 +19,9 @@ import com.bumptech.glide.load.resource.bitmap.GlideBitmapDrawable;
 import com.bumptech.glide.load.resource.drawable.GlideDrawable;
 import com.bumptech.glide.request.RequestListener;
 import com.bumptech.glide.request.target.Target;
-import com.udacity.assignment.android.popularmoviesstageone.R;
-import com.udacity.assignment.android.popularmoviesstageone.model.Movies;
-import com.udacity.assignment.android.popularmoviesstageone.utilities.Constants;
+import com.udacity.assignment.android.popularmoviesstagetwo.R;
+import com.udacity.assignment.android.popularmoviesstagetwo.model.Movies;
+import com.udacity.assignment.android.popularmoviesstagetwo.utilities.Constants;
 
 import java.util.ArrayList;
 

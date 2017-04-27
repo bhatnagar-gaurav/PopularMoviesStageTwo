@@ -134,6 +134,37 @@
             android:alpha="0.5"
             android:background="@color/material_black" />
 
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/separator_height"
+            android:layout_marginLeft="@dimen/synopsis_margin_left"
+            android:layout_marginRight="@dimen/synopsis_margin_left"
+            android:layout_marginTop="@dimen/separator_marginTop"
+            android:layout_marginBottom="@dimen/separator_marginTop"
+            android:alpha="0.5"
+            android:background="@color/material_black" />
+
+        <TextView
+            android:id="@+id/movie_detail_reviews"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/separator_marginTop"
+            android:layout_marginLeft="@dimen/synopsis_margin_left"
+            android:layout_marginStart="@dimen/synopsis_margin_left"
+            android:layout_marginTop="@dimen/separator_marginTop"
+            android:text="@string/movie_review"
+            android:textColor="@color/material_light_red"
+            android:textSize="@dimen/movie_detail_reviews_font_size" />
+
+        <LinearLayout
+            android:id="@+id/movie_detail_reviews_linear_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/separator_marginTop">
+        </LinearLayout>
+
     </LinearLayout>
 
 

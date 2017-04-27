@@ -1,4 +1,4 @@
-package com.udacity.assignment.android.popularmoviesstageone.utilities.itemdecoration;
+package com.udacity.assignment.android.popularmoviesstagetwo.utilities.itemdecoration;
 
 import android.graphics.Rect;
 import android.support.v7.widget.RecyclerView;

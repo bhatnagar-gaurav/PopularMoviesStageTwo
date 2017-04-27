@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- Margin Guidelines as per Design Framework -->
+
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="floating_action_button_margin">16dp</dimen>
 
     <!-- Default Control Padding -->
 
@@ -23,6 +26,7 @@
     <!-- Movie Details -->
     <dimen name="movie_detail_title_text_size">24sp</dimen>
     <dimen name="movie_detail_synopsis_font_size">24sp</dimen>
+    <dimen name="movie_detail_reviews_font_size">24sp</dimen>
     <dimen name="movie_release_date_font_size">32sp</dimen>
     <dimen name="movie_detail_thumbnail_margin_left">10dp</dimen>
     <dimen name="movie_detail_thumbnail_margin_top">10dp</dimen>
@@ -42,6 +46,7 @@
     <dimen name="separator_height">1dp</dimen>
     <dimen name="synopsis_margin">8dp</dimen>
     <dimen name="synopsis_fontSize">20sp</dimen>
+    <dimen name="floating_action_bar_elevation">16dp</dimen>
     <!-- Movie Title In Details-->
     <dimen name="title_size">36sp</dimen>
     <dimen name="top_margin">10dp</dimen>

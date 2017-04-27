@@ -1,4 +1,4 @@
-package com.udacity.assignment.android.popularmoviesstageone.utilities;
+package com.udacity.assignment.android.popularmoviesstagetwo.utilities;
 
 /**
  * Created by gaurav.b on 4/10/2017.

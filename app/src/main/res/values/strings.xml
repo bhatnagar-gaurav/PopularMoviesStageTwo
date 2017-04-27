@@ -57,4 +57,8 @@
     <string name="movie_synopsis_label">Movie Synopsis</string>
     <string name="movie_detail_title">Movie Details</string>
     <string name="movie_detail_title_initializer">Please select a movie</string>
+    <string name="movie_review">Reviews for the Movie</string>
+    <string name="details_menu_movie_share_title">Share</string>
+    <string name="zero_movie_review">There are no reviews available for this specific movie.</string>
+    <string name="zero_movie_trailers">There are no trailers available for this specific movie.</string>
 </resources>

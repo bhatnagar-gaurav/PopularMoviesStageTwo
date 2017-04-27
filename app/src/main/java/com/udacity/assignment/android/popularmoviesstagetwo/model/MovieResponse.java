@@ -1,4 +1,4 @@
-package com.udacity.assignment.android.popularmoviesstageone.model;
+package com.udacity.assignment.android.popularmoviesstagetwo.model;
 
 import com.google.gson.annotations.SerializedName;
 

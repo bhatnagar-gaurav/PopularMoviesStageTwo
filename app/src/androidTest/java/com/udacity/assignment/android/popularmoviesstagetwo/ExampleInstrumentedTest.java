@@ -1,4 +1,4 @@
-package com.udacity.assignment.android.popularmoviesstageone;
+package com.udacity.assignment.android.popularmoviesstagetwo;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

@@ -1,4 +1,4 @@
-package com.udacity.assignment.android.popularmoviesstageone.utilities.networkutils;
+package com.udacity.assignment.android.popularmoviesstagetwo.utilities.networkutils;
 
 
 import android.content.Context;

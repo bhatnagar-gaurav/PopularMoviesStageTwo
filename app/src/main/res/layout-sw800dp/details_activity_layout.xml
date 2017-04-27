@@ -18,7 +18,7 @@
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
 
-                <Button
+           <!--     <Button
                     android:id="@+id/backButton"
                     style="@style/Base.Widget.AppCompat.Button.Borderless"
                     android:layout_width="wrap_content"
@@ -42,7 +42,7 @@
                     android:textStyle="bold"
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
-                    android:textColor="@color/material_white" />
+                    android:textColor="@color/material_white" />-->
 
                 <android.support.v7.widget.Toolbar
                     android:id="@+id/toolbar"
@@ -58,4 +58,12 @@
     </android.support.design.widget.AppBarLayout>
 
     <include layout="@layout/details_layout" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        style="@style/FloatingActionButton"
+        app:elevation="@dimen/floating_action_bar_elevation"
+        app:layout_anchor="@id/app_bar"
+        app:layout_anchorGravity="bottom|end"
+        app:srcCompat="@drawable/ic_grade_black_24dp" />
 </android.support.design.widget.CoordinatorLayout>

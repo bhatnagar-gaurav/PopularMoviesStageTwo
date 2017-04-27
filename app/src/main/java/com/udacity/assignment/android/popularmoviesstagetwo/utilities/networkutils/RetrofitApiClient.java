@@ -1,8 +1,8 @@
-package com.udacity.assignment.android.popularmoviesstageone.utilities.networkutils;
+package com.udacity.assignment.android.popularmoviesstagetwo.utilities.networkutils;
 
 import android.content.Context;
 
-import com.udacity.assignment.android.popularmoviesstageone.utilities.Constants;
+import com.udacity.assignment.android.popularmoviesstagetwo.utilities.Constants;
 
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;

@@ -1,13 +1,10 @@
-package com.udacity.assignment.android.popularmoviesstageone.model;
+package com.udacity.assignment.android.popularmoviesstagetwo.model;
 
 import android.os.Parcel;
 import android.os.Parcelable;
 
 import com.google.gson.annotations.SerializedName;
-import com.udacity.assignment.android.popularmoviesstageone.utilities.Constants;
-
-import java.util.ArrayList;
-import java.util.List;
+import com.udacity.assignment.android.popularmoviesstagetwo.utilities.Constants;
 
 /************* Class required for parsing the response of the Webservice ********************/
 

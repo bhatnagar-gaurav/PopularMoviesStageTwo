@@ -1,19 +1,25 @@
-package com.udacity.assignment.android.popularmoviesstageone.userinterface;
+package com.udacity.assignment.android.popularmoviesstagetwo.userinterface;
 
+import android.support.annotation.NonNull;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.TaskStackBuilder;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import com.udacity.assignment.android.popularmoviesstageone.R;
-import com.udacity.assignment.android.popularmoviesstageone.userinterface.fragments.MovieDetailsFragment;
-import com.udacity.assignment.android.popularmoviesstageone.userinterface.fragments.PopularMoviesFragment;
-import com.udacity.assignment.android.popularmoviesstageone.utilities.Constants;
+import com.udacity.assignment.android.popularmoviesstagetwo.R;
+import com.udacity.assignment.android.popularmoviesstagetwo.userinterface.fragments.MovieDetailsFragment;
+import com.udacity.assignment.android.popularmoviesstagetwo.userinterface.fragments.PopularMoviesFragment;
+import com.udacity.assignment.android.popularmoviesstagetwo.utilities.Constants;
 
-public class AccessActivity extends AppCompatActivity implements  PopularMoviesFragment.OnMovieItemClickListener{
+public class AccessActivity extends AppCompatActivity implements  PopularMoviesFragment.OnMovieItemClickListener,FragmentManager.OnBackStackChangedListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.content);
+        //Listen for changes in the back stack
+        getSupportFragmentManager().addOnBackStackChangedListener(this);
+
         if (findViewById(R.id.content) != null) {
             if (savedInstanceState != null) {
                 return;
@@ -53,5 +59,24 @@ public class AccessActivity extends AppCompatActivity implements  PopularMoviesF
                     .addToBackStack(null)
                     .commit();
         }
+    }
+
+
+    @Override
+    public void onBackStackChanged() {
+        shouldDisplayMainFragment();
+    }
+
+    public void shouldDisplayMainFragment(){
+        //Enable Up button only  if there are entries in the back stack
+        boolean goBack = getSupportFragmentManager().getBackStackEntryCount()>0;
+        getSupportActionBar().setDisplayHomeAsUpEnabled(goBack);
+    }
+
+    @Override
+    public boolean onSupportNavigateUp() {
+        //This method is called when the up button is pressed. Just the pop back stack.
+        getSupportFragmentManager().popBackStack();
+        return super.onSupportNavigateUp();
     }
 }

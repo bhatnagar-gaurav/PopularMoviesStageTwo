@@ -1,6 +1,6 @@
-package com.udacity.assignment.android.popularmoviesstageone.utilities;
+package com.udacity.assignment.android.popularmoviesstagetwo.utilities;
 
-import com.udacity.assignment.android.popularmoviesstageone.BuildConfig;
+import com.udacity.assignment.android.popularmoviesstagetwo.BuildConfig;
 
 public class Constants {
 
@@ -27,6 +27,14 @@ public class Constants {
     private static final String THUMBNAIL_URI = "http://image.tmdb.org/t/p/";
     private static final String THUMBNAIL_SIZE_W185 = "w185/";
     public static final String FINAL_THUMBNAIL_URI = THUMBNAIL_URI+THUMBNAIL_SIZE_W185;
+
+    /****************************************************************
+     ******* Constants Used For Building the Movie Trailer Video *********
+     ****************************************************************/
+
+    private static final String VIDEO_THUMBNAIL_SIZE_W500 = "w500/";
+    public static final String FINAL_TRAILER_VIDEO_THUMBNAIL_URI = THUMBNAIL_URI+VIDEO_THUMBNAIL_SIZE_W500;
+    public static final String BASIC_YOUTUBE_URI = "https://www.youtube.com/watch?v=";
 
     /*********************************************************************************
      ******* Constants Used For Populating the Selected Movie Detail Screen **********
