@@ -55,6 +55,7 @@ public class Constants {
     public final static String JSON_MOVIE_ID = "id";
     public final static String JSON_MOVIE_TITLE = "original_title";
     public final static String JSON_MOVIE_VOTE_AVERAGE = "vote_average";
+    public final static String JSON_MOVIE_VIDEO_PATH = "backdrop_path";
 
 
 }

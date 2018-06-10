@@ -24,6 +24,8 @@ public class Movies implements Parcelable {
     private String releaseDate;
     @SerializedName("vote_count")
     private String totalVoteCount;
+    @SerializedName(Constants.JSON_MOVIE_VIDEO_PATH)
+    private String videoImagePath;
 
     public String getMovieTitle() {
         return movieTitle;
